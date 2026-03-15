@@ -1,0 +1,16 @@
+{
+  "name": "cysvis",
+  "version": "1.0.0",
+  "description": "Phase 1 MVP for the KEAP1 cysteine viewer described in `CysVis-spec.md`.",
+  "scripts": {
+    "test": "PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS=1 LD_LIBRARY_PATH=./.vendor/usr/lib/x86_64-linux-gnu playwright test",
+    "test:headed": "PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS=1 LD_LIBRARY_PATH=./.vendor/usr/lib/x86_64-linux-gnu playwright test --headed",
+    "test:ui": "PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS=1 LD_LIBRARY_PATH=./.vendor/usr/lib/x86_64-linux-gnu playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

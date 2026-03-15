@@ -1,0 +1,105 @@
+{
+  "took": 5,
+  "total": 5,
+  "hits": [
+    {
+      "_id": "test-1",
+      "clinvar": {
+        "variant_id": 1001,
+        "type": "single nucleotide variant",
+        "hgvs": {
+          "coding": ["NM_012289.4:c.451T>A"],
+          "protein": ["NP_036421.2:p.Cys151Ser"]
+        },
+        "rcv": {
+          "accession": "RCVTEST0001",
+          "clinical_significance": "Uncertain significance",
+          "conditions": { "name": "not specified" },
+          "preferred_name": "NM_012289.4(KEAP1):c.451T>A (p.Cys151Ser)",
+          "origin": "germline"
+        }
+      }
+    },
+    {
+      "_id": "test-2",
+      "clinvar": {
+        "variant_id": 1002,
+        "type": "single nucleotide variant",
+        "hgvs": {
+          "coding": ["NM_012289.4:c.452G>A"],
+          "protein": ["NP_036421.2:p.Cys151Tyr"]
+        },
+        "rcv": [
+          {
+            "accession": "RCVTEST0002A",
+            "clinical_significance": "Uncertain significance",
+            "conditions": { "name": "not specified" },
+            "preferred_name": "NM_012289.4(KEAP1):c.452G>A (p.Cys151Tyr)",
+            "origin": "somatic"
+          },
+          {
+            "accession": "RCVTEST0002",
+            "clinical_significance": "Likely pathogenic",
+            "conditions": { "name": "hereditary cancer-predisposing syndrome" },
+            "preferred_name": "NM_012289.4(KEAP1):c.452G>A (p.Cys151Tyr)",
+            "origin": "germline"
+          }
+        ]
+      }
+    },
+    {
+      "_id": "test-3",
+      "clinvar": {
+        "variant_id": 1003,
+        "type": "single nucleotide variant",
+        "hgvs": {
+          "coding": ["NM_012289.4:c.449A>G"],
+          "protein": ["NP_036421.2:p.Lys150Arg"]
+        },
+        "rcv": {
+          "accession": "RCVTEST0003",
+          "clinical_significance": "Benign",
+          "conditions": { "name": "not specified" },
+          "preferred_name": "NM_012289.4(KEAP1):c.449A>G (p.Lys150Arg)",
+          "origin": "germline"
+        }
+      }
+    },
+    {
+      "_id": "test-4",
+      "clinvar": {
+        "variant_id": 1004,
+        "type": "single nucleotide variant",
+        "hgvs": {
+          "coding": ["NM_012289.4:c.958C>T"],
+          "protein": ["NP_036421.2:p.Arg320Cys"]
+        },
+        "rcv": {
+          "accession": "RCVTEST0004",
+          "clinical_significance": "Likely pathogenic",
+          "conditions": { "name": "lung adenocarcinoma" },
+          "preferred_name": "NM_012289.4(KEAP1):c.958C>T (p.Arg320Cys)",
+          "origin": "somatic"
+        }
+      }
+    },
+    {
+      "_id": "test-5",
+      "clinvar": {
+        "variant_id": 1005,
+        "type": "single nucleotide variant",
+        "hgvs": {
+          "coding": ["NM_012289.4:c.1222C>A"],
+          "protein": ["NP_036421.2:p.Pro408Thr"]
+        },
+        "rcv": {
+          "accession": "RCVTEST0005",
+          "clinical_significance": "Uncertain significance",
+          "conditions": { "name": "not specified" },
+          "preferred_name": "NM_012289.4(KEAP1):c.1222C>A (p.Pro408Thr)",
+          "origin": "germline"
+        }
+      }
+    }
+  ]
+}
